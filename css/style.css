@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Mason Chronicles;
+    src: url(../fonts/4026.ttf); /* Путь к файлу со шрифтом */
+   }
+   body{
+       margin: 0;
+       padding: 0;
+   }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 95%;
+}
+.menu-inner{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.logo{
+    font-family: "Mason Chronicles", sans-serif;
+    font-size: 40px;
+}
+.menu{
+    background-color: #5eafd2;
+    margin-bottom: 50px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    list-style: none;
+}
+.link-menu{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding-bottom: 2px;
+    transition: 0.1s;
+}
+.link-menu:hover{
+    border-bottom: 2px solid #000;
+}
+.avtor{
+    text-align: center;
+ 
+}
+.avtor-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.photo{
+    max-width:350px;
+}
+.avtor-info{
+
+}
+.avtor-title{
+    font-size: 40px;
+}
+.name{
+    font-size: 30px;
+}
+.annotation{
+       margin-bottom: 50px;
+}
+
+.annotation-title{
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #d12631;
+}
+.annotation-descr{
+    font-size: 22px;
+}
+.byography{
+    text-align: center;
+}
+.byography-title{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.byography-img{
+    margin-bottom: 30px;
+}
+.byography-text{
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.6;
+}
+.soderjanie-subtitle{
+    margin-bottom: 15px;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.soderjanie-title{
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #d12631;
+}
+.soderjanie-text{
+    font-size: 22px;
+    line-height: 1.6;
+}
+.ekranization-subtitle{
+    font-size: 60px;
+}
+.ekranization-title{
+    padding-bottom: 5px;
+    font-size: 30px;
+    border-bottom: 2px solid #d12631;
+}
+.ekranization-video{
+    margin-bottom: 30px;
+}
+.ekranization-text{
+    font-size: 22px;
+    padding-left: 10px;
+    border-left: 2px solid #d12631;
+}
